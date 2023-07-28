@@ -27,7 +27,7 @@
 
         <h1 class="p-3"> Edit Item </h1>
 
-        <form:form action="/editSaveToDoItem" method="post" modelAttribute="todo">
+        <form:form action="/todoList/saveEditTodoItem" method="post" modelAttribute="todo">
 			<form:input path="id" type="hidden"/>
             <div class="row">
             	<div class="form-group col-md-12">
@@ -74,7 +74,7 @@
 
                     var msg = "${message}";
                     console.log(msg);
-                    if (msg == "Edit Failure") {
+                    if (msg == "Edit Failure!!") {
         				Command: toastr["error"]("Something went wrong with the edit.")
         			}
 

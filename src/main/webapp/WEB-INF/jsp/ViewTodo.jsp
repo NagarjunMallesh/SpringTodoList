@@ -84,13 +84,13 @@
 
                     var msg = "${message}";
                     
-                    if (msg == "Save Success") {
+                    if (msg == "Save Success!!") {
         				Command: toastr["success"]("Item added successfully!!")
-        			} else if (msg == "Delete Success") {
+        			} else if (msg == "Delete Success!!") {
         				Command: toastr["success"]("Item deleted successfully!!")
-        			} else if (msg == "Delete Failure") {
+        			} else if (msg == "Delete Failure!!") {
         			    Command: toastr["error"]("Some error occurred, couldn't delete item")
-        			} else if (msg == "Edit Success") {
+        			} else if (msg == "Edit Success!!") {
         				Command: toastr["success"]("Item updated successfully!!")
         			}
 
